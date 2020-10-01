@@ -1,0 +1,2 @@
+Add-VpnConnection -Name Trial234 -ServerAddress "vpn228071575.softether.net" -TunnelType L2tp -AuthenticationMethod MSChapv2 -EncryptionLevel Optional -L2tpPsk "\f#j4W&M" -Force -AllUserConnection -UseWinLogonCredential $false -SplitTunneling
+rasdial "Trial234" "test1" "test1"
